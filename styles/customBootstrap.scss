@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+*
+{
+    font-family: 'Quicksand', sans-serif;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+//$primary: black;
+//$secondary: black;
+//$success: black;
+//$danger: #ff4136;
+//$warning : black;
+//$info : black;
+//$light: #ffff;
+//$dark: #000;
+
+//Botones
+$btn-border-radius: 50px;
+$btn-border-radius-lg:  50px;
+$font-size-base: 0.9rem;
+// Configuracion de fuentes
+$font-family-sans-serif: "Quicksand", sans-serif;
+$h1-font-size: $font-size-base * 2.3;
+$h2-font-size: $font-size-base * 2;
+$h3-font-size: $font-size-base * 1.75;
+$h4-font-size: $font-size-base * 1.5;
+$h5-font-size: $font-size-base * 1.25;
+$h6-font-size: $font-size-base;
+
+$card-border-radius: 0;
+$card-bg: transparent;
+
+@import "~bootstrap/scss/bootstrap";
+@import "~bootstrap/scss/bootstrap-grid";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+@import "~bootstrap/scss/root";
+@import "~bootstrap/scss/reboot";
+@import "~bootstrap/scss/type";
+@import "~bootstrap/scss/images";
+@import "~bootstrap/scss/containers";
+@import "~bootstrap/scss/grid";
+@import "~bootstrap/scss/functions";
+
+.card {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  cursor: pointer;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 50px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.heightCien {
+  min-height: 100vh;
+  max-height: 100vh;
+}
+
+body {
+  font-family: "Quicksand", sans-serif !important;
+  font-size: 0.9rem !important;
+  background-color: #f2f2f2;
+}
+* {
+  font-family: "Quicksand", sans-serif !important;
+}
+
+.menuActive {
+
+  background: rgb(63, 94, 251);
+  background: linear-gradient(
+    90deg,
+    rgba(252, 70, 107, 1) 2%,
+    rgba(0, 0, 0, 0.5) 15%
+  );
+
+  background-color: rgba(0, 0, 0, 0.2) !important;
+  border-radius: 0px;
+  color: white !important;
+}
+
+.list-group-flush > .list-group-item {
+  border-radius: 0px;
+}
+
+a {
+  color: #007c8b;
+  text-decoration: none;
+}
+
+.buttonSiguiente {
+  background-color: #c70c5a !important;
+  border-color: #c70c5a !important;
+  color: white;
+  font-weight: bold;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.buttonAtras {
+  background-color: transparent !important;
+  border-color: white !important;
+  color: white;
+  font-weight: bold;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.buttonFinalizar {
+  background-color: #11977e !important;
+  border-color: #11977e !important;
+  color: white;
+  font-weight: bold;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.menuBackground {
+  background: rgb(63, 94, 251);
+  background: linear-gradient(
+    180deg,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(252, 70, 107, 1) 100%
+  );
+  min-height: 100vh;
+ 
+}
+
+.list-group-item
+{
+  background-color: transparent;
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.btn-primary
+{
+  background-color: #c70c5a;
+  border-color: #c70c5a;
+}
+
+.fc-toolbar-title
+{
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.fc .fc-button-primary
+{
+  background-color: #c70c5a !important;
+}
+
+.fc-col-header-cell
+{
+  background-color: #c70c5a !important;
+  color: white !important;
+}
+.fc-col-header-cell-cushion 
+{
+  color: white !important;
+ 
+}
+
+.fc-h-event{
+  background-color: #c70c5a !important;
+  border-color: #c70c5a !important;
+  cursor: pointer;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.fc-h-event:hover{
+  background-color: #545BEB !important;
+  border-color: #545BEB !important;
+  cursor: pointer;
+}
+
+.MuiInputLabel-outlined{
+  z-index: 6000 !important
+}
